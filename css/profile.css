@@ -1,0 +1,289 @@
+#body{
+    margin: 10px;
+    padding: 0;
+    background-color: #e9f3f8; 
+}
+#header{
+    /* box-shadow: 0.5px 0px 4px 0.5px; */
+    background-color: #f0575f;
+    z-index: 1; 
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    margin-left: 2%;
+    margin-top: 4px;
+    vertical-align: middle
+}
+
+.home{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 1%
+}
+.home:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+
+.sign{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 6px
+}
+.sign:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+#header span{
+    border-left: 1px solid white;
+}
+/* User Profile */
+
+#userProfile{
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 2px 2px;
+    width: 350px;
+    margin-top: 7%;
+    /* z-index: -1; */
+}
+#profilePic{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 6px solid rgb(126, 172, 126);
+}
+#profileTable td{
+    width: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px
+}
+#requests{
+  cursor: pointer;
+}
+
+/* button */
+
+.button {
+    position: relative;
+    background-color: rgb(14, 130, 238);
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 130px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 80px
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  /*update  */
+
+#UpdatePro{
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #ff949a;
+    width: 360px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 590px;
+    padding-top: 30px;
+}
+#boxName{
+    margin-bottom: 20px;
+}
+#boxName span{
+    margin-left: 40px;
+    font-size: 40px;
+    color: #f0575f;
+}
+#UpdatePro input{
+    width: 260px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 15.6px;
+    text-decoration: none solid rgb(64, 56, 12);
+    word-spacing: 0px;
+    background-color: #ffffff;
+    color: #403866;
+    height: 42px;
+    width: 330px;
+    padding: 0 10px 0 20px;
+    display: block;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#UpdatePro input:focus{
+outline: rgb(255, 0, 0) dashed 1px;
+outline-offset: -2px;
+box-sizing: border-box;
+}
+
+/* carfkkkkkkkk */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 20px
+}
+
+.price {
+    font-size: 22px;
+}
+
+
+
+.notification {
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: red;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+
+
+
+  #newNav{
+    display: none
+}
+  /* drop down nav */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+      display: none;
+  }
+  
+  .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+  }
+  
+  .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  
+  .topnav a:hover {
+      background-color: #ddd;
+      color: #f0575f;
+  }
+  
+  .active {
+      background-color: #f0575f;
+      color: white;
+      height: 65px;
+  }
+
+  @media only screen and (max-width: 585px) {
+    body {
+      background-color: lightblue;
+    }
+    #logo{
+        margin: 0px;
+        margin-bottom: 10px
+    }
+    #header{
+        display: none;
+    }
+    #newNav{
+        display: block;
+    }
+
+    #donateGroups{
+        bottom: 250px;
+    }
+    #donate{
+        bottom: 250px;
+        display: inline-block;
+        margin:  0px 0% 0px 37% ;
+    }
+
+  } 

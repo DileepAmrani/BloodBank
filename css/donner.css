@@ -1,0 +1,297 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+#header{
+    /* box-shadow: 0.5px 0px 4px 0.5px; */
+    background-color: #f0575f;
+    width: 100%;
+    z-index: 1; 
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    margin-left: 2%;
+    margin-top: 4px;
+    vertical-align: middle
+}
+.home{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 1%
+}
+.home:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+.profile{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 6px
+}
+.profile:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+#header span{
+    border-left: 1px solid white;
+}
+
+
+/* donner Card  */
+#allDonners{
+    /* padding: 5%; */
+    width: 100%;
+    flex-direction: row;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 18%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+      margin: 0 -5px;
+      margin-top: 5%;
+      margin-left: 1%;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 30px;
+    line-height: 1px;
+    display: inline-block;
+    width: 200px;
+  }
+
+.card img{
+width: 150px;
+border-radius: 5px
+}  
+  
+.button {
+    position: relative;
+    background-color: #f0575f;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 6px;
+    width: 90px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 10px
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  /* filter */
+
+#allfilter{
+margin-top: 1%;
+
+background-color: #f0575f;
+
+}
+#donateGroups{
+  height: 40px;
+  width: 161px;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 0px 0px 0px 20px;
+  outline: none;
+  border: none;
+}
+#yourGroups{
+  height: 40px;
+  width: 161px;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 0px 0px 0px 20px;
+  outline: none;
+  border: none
+}
+#donnerCity{
+  height: 41px;
+  width: 225px;
+  border-radius: 5px;
+  outline: none;
+  margin: 1%;
+  padding: 0px 0px 0px 20px;
+  border: none;
+
+}
+#filterCity{
+  height: 40px;
+  outline: none;
+  width: 113px;
+  border-radius: 5px;
+  margin: 1%;
+  font-weight: bolder;
+  font-size: 13px;
+  background: none;
+  background-color: yellow;
+  border: none;
+}
+
+
+
+/*New navigation  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #f0575f;
+}
+
+.active {
+    background-color: #f0575f;
+    color: white;
+    height: 60px;
+}
+/* drop down nav */
+
+#newNav{
+  display: none
+}
+
+@media only screen and (max-width: 585px) {
+  #allDonners{
+    margin: 0px;
+    padding: 0px;
+  flex-direction: column;
+}
+  .card{
+    margin-bottom: 20px;
+    align-self: center
+  }
+  .card img{
+    width: 100px;
+    border-radius: 5px;
+    margin: 20px
+    }  
+  #logo{
+      margin: 0px;
+      margin-bottom: 10px
+  }
+  #header{
+      display: none;
+
+  }
+  #newNav{
+      display: block;
+  }
+  #donate{
+      bottom: 250px;
+      display: inline-block;
+      margin:  0px 0% 0px 37% ;
+  }
+  #donnersSection{
+      display: none;
+
+  }
+} 

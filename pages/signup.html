@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MamaBloodBank.com</title>
+    <link rel="stylesheet" href="../css/signUp.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOBRSWJtiNdaZzpO7SXtnzjwg-fhN1fR0",
+    authDomain: "bloodbank-fd21a.firebaseapp.com",
+    databaseURL: "https://bloodbank-fd21a.firebaseio.com",
+    projectId: "bloodbank-fd21a",
+    storageBucket: "bloodbank-fd21a.appspot.com",
+    messagingSenderId: "655241859557",
+    appId: "1:655241859557:web:ff55680160b3879d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+
+<div id="header">
+    <img src="../icon/ICON1.png" width="150px" alt="" id="logo">    <button class="login" id="loginBtn">Log In</button> <span><button id="signUpBtn" class="sign">Sign Up</button></span>
+</div>
+
+<div id="slider">
+        <div class="w3-content" >
+                <img class="mySlides" src="../images/one.jpg" style="width:100%"  >
+                <img class="mySlides" src="../images/two.jpg" style="width:100%">
+                <img class="mySlides" src="../images/six.jpg" style="width:100%">
+        </div>
+</div>
+
+      
+<center>        
+        <div id="SignUp">
+                <div id="boxName">
+                        <span>Sign Up</span>
+                </div>
+                <input type="text" id="nameId" placeholder="Name"><br>
+                <input type="email" id="emailId" placeholder="Email"><br>
+                <input type="password" id="passwordId" placeholder="Password"><br>
+                <input type="text" id="cityId" placeholder="City"><br>
+                <input type="number" id="numberId" placeholder="Phone Number"><br>
+                <!-- <span>Profile Picture</span><br> -->
+                <input type="file" id="pictureId"><br>
+                <input type="number" id="ageId" placeholder="Age"><br>
+                <button class="button" id="signupfirebase">Sign Up</button>
+        </div>
+</center>
+
+<center>
+
+        <div id="loginForm">
+                <div id="boxName">
+                        <span>Log In</span>
+                </div>
+                <input type="email" id="emailIdLogin" placeholder="Email"><br>
+                <input type="password" id="passwordIdLogin" placeholder="Password"><br>
+                <button class="button" id="loginfirebase">Log in</button>
+        </div>
+        
+</center>
+</body>
+<script src="../js/signUpLogin.js"></script>
+</html>

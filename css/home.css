@@ -1,0 +1,287 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+#header{
+    background-color: #f0575f;
+     z-index: 1; 
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    margin-left: 2%;
+    margin-top: 4px;
+    vertical-align: middle
+}
+.login{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 1%
+}
+.login:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+.sign{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 6px
+}
+.sign:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+#header span{
+    border-left: 1px solid white;
+}
+
+/* slider */
+.mySlides {
+    display:none;
+    height: 500px;
+    width: 100%
+}
+.w3-content{
+margin-top: 40px;
+}
+#donateGroups{
+    position: relative;
+    z-index: 1;
+    bottom: 450px;
+    margin:  0% 0% 0% 40%;
+    font-family: Poppins;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+
+#donate{
+    position: relative;
+    z-index: 1;
+    bottom: 450px;
+    margin:  0px 0% 0px 0% ;
+    font-family: Poppins;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    background-color:#000000;
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 700px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#donate:hover{
+    background-color:red;
+}
+/* Total Donners  */
+
+#donnersSection{
+    background-color: #2e2b28;
+    background-image: url("../images/donate.jpg");
+    height: 250px;
+    /* margin: 0px 6% 0px 6%; */
+    /* border-radius: 40px; */
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#donnersSection span{
+font-size: 30px;
+font-weight: bold;
+margin-left: 20px
+}
+
+
+/* Benfits of Donating */
+
+#benfits{
+    height: 300px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: 0px 7%;
+}
+#benifitsHeading{
+    background-color: rgb(255, 77, 77);
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 10px 10px 0px 0px;
+}
+#list{
+    margin-left: 10%;
+    margin-top: 50px;
+    font-family: Poppins;
+    font-size: 20px
+}
+
+/* Who can Donate Blood */
+#whoCan{
+    height: 300px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: 0px 5%;
+    margin-top: 3%; 
+}
+#whoCanHeading{
+    background-color: rgb(255, 77, 77);
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* foooter  */
+
+#footer{
+    height: 400px;
+    background-color: black;
+    margin-top: 30px;
+    color: white
+}
+
+#footerTab{
+margin-left: 40%;
+padding-top: 5%
+}
+#footerTab td{
+    font-size: 50px;
+color: #7a7a7a;
+padding-right: 50px
+}
+
+/* go to top button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+#newNav{
+    display: none
+}
+
+
+/*New navigation  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #f0575f;
+}
+
+.active {
+    background-color: #f0575f;
+    color: white;
+    height: 65px;
+}
+  /* drop down nav */
+  
+
+  @media only screen and (max-width: 585px) {
+    body {
+      background-color: lightblue;
+    }
+    #logo{
+        margin: 0px;
+        margin-bottom: 10px
+    }
+    #header{
+        display: none;
+
+    }
+    #newNav{
+        display: block;
+    }
+    .mySlides {
+        display:none;
+        height: 260px;
+        width: 100%;
+        margin-bottom: 0px
+    }
+    #donateGroups{
+        bottom: 250px;
+    }
+    #donate{
+        bottom: 250px;
+        display: inline-block;
+        margin:  0px 0% 0px 37% ;
+    }
+    #donnersSection{
+        display: none;
+
+    }
+  } 

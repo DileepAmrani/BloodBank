@@ -1,0 +1,153 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MamaBloodBank.com</title>
+  <link rel="stylesheet" href="../css/donnerProfile.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDOBRSWJtiNdaZzpO7SXtnzjwg-fhN1fR0",
+      authDomain: "bloodbank-fd21a.firebaseapp.com",
+      databaseURL: "https://bloodbank-fd21a.firebaseio.com",
+      projectId: "bloodbank-fd21a",
+      storageBucket: "bloodbank-fd21a.appspot.com",
+      messagingSenderId: "655241859557",
+      appId: "1:655241859557:web:ff55680160b3879d"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <div id="header">
+    <img src="../icon/ICON1.png" width="150px" alt="" id="logo"> <button class="home" id="toHome"
+      onclick="btn()">Home</button>
+    <span><button id="toProfile" class="profile">Profile</button></span>
+    <img src="../icon/Untitled-1.png"
+      style="float: right; width:40px; margin-top: 12px; margin-right: 15px; cursor: pointer;" id="logout">
+  </div>
+
+                              
+  <div id="newNav" >
+      <!-- Top Navigation Menu -->
+      <div class="topnav" >
+        <a href="#home" class="active"><img src="../icon/ICON1.png" width="80px"   alt="" id="logo"></a>
+        <div id="myLinks" >
+              <a href="../pages/home.html" id="home">Home</a>
+              <a href="../pages/profile.html" id="donners">Profile</a>
+              <a href="../pages/signup.html" id="logout">Log out</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding: 20px">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+  </div>
+
+
+  <div id="profile-bio" style="position: absolute">
+    <a target="_blank" id="userPic">
+    </a>
+
+    <h1 id="nameDonner">
+    </h1>
+
+    <h2 id="cityDonner">
+      Mithi
+    </h2>
+
+    <p id="bloodDonner" class="detail">
+      B+ve
+    </p>
+    <p id="ageDonner" class="detail">
+      19 years
+    </p>
+    <p id="emailDonner" class="detail">
+      amranidileep@gmail.com
+    </p>
+    <p id="phoneDonner" class="detail">
+      +3345694934
+    </p>
+    <p class="detail">
+      he is able to Donate Blood
+    </p>
+    <button id="requestBtn">Request</button>
+  </div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark"
+    style="background-color:rgb(61, 56, 56); color: white; margin-top:700px ">
+
+
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Mama Blood Bank</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>One of the best Blood Bank in Mithi Tharparkar
+              serving Peoples form many years.</p>
+
+        </div>
+
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Mithi Tharparkar</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> MamaBloodBank@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i>+923368933075</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +923442625616</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Dileep Amrani</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <script src="../js/donnerProfile.js"></script>
+</body>
+
+</html>

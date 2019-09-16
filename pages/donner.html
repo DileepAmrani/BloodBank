@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MamaBloodBank.com</title>
+    <link rel="stylesheet" href="../css/donner.css">
+    <!-- sweet alert link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOBRSWJtiNdaZzpO7SXtnzjwg-fhN1fR0",
+    authDomain: "bloodbank-fd21a.firebaseapp.com",
+    databaseURL: "https://bloodbank-fd21a.firebaseio.com",
+    projectId: "bloodbank-fd21a",
+    storageBucket: "bloodbank-fd21a.appspot.com",
+    messagingSenderId: "655241859557",
+    appId: "1:655241859557:web:ff55680160b3879d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+
+<body>
+    <div id="header">
+        <img src="../icon/ICON1.png" width="150px" alt="" id="logo"> <button class="home" id="toHome">Home</button>
+        <span><button id="toProfile" class="profile">Profile</button></span>
+        <img src="../icon/Untitled-1.png"
+        style="float: right; width:40px; margin-top: 12px; margin-right: 15px; cursor: pointer;" id="logout">
+  </div>
+
+
+  <div id="newNav" >
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active"><img src="../icon/ICON1.png" width="80px" alt="" id="logo"></a>
+        <div id="myLinks">
+          <a href="../pages/home.html" id="Home">Home</a>
+              <a href="../pages/profile.html" id="profile">Profile</a>
+              <a href="../pages/signup.html" id="logout">Log out</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding: 20px">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</div>
+    </div>
+    <div id="allfilter">
+        <select name="Groups" id="yourGroups">
+            <option selected>Who Can Give?</option>
+            <option value="A+ve">A+ve</option>
+            <option value="A-ve">A-ve</option>
+            <option value="B+ve">B+ve</option>
+            <option value="B-ve">B-ve</option>
+            <option value="AB-ve">AB-ve</option>
+            <option value="AB+ve">AB+ve</option>
+            <option value="O-ve">O-ve</option>
+            <option value="O+ve">O+ve</option>
+    </select>
+
+    <select name="Groups" id="donateGroups">
+        <option selected>Blood Group</option>
+        <option value="A+ve">A+ve</option>
+        <option value="A-ve">A-ve</option>
+        <option value="B+ve">B+ve</option>
+        <option value="B-ve">B-ve</option>
+        <option value="AB-ve">AB-ve</option>
+        <option value="AB+ve">AB+ve</option>
+        <option value="O-ve">O-ve</option>
+        <option value="O+ve">O+ve</option>
+</select>
+
+<input type="text" placeholder="Enter City Name" id="donnerCity">
+<button id="filterCity">SEARCH</button>
+</div>
+
+
+    <div id="allDonners">
+
+
+    </div>
+
+   
+</body>
+<script src="../js/donner.js"></script>
+
+</html>

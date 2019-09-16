@@ -1,0 +1,214 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+#header{
+    box-shadow: 0.5px 0px 4px 0.5px;
+    background-color: #f0575f;
+    width: 100%
+}
+#logo{
+    margin-left: 2%;
+    margin-top: 4px;
+    vertical-align: middle
+}
+.login{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 4%
+}
+.login:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+
+
+/* slider  */
+.mySlides {
+    display:none;
+    height: 500px;
+    width: 900px;
+}
+.w3-content{
+margin-top: 70px;
+}
+
+.sign{
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 6px
+}
+.sign:hover{
+    background-color: #ff949a;
+    padding: 10px;
+}
+#header span{
+    border-left: 1px solid white;
+}
+/* Sign Up */
+
+#SignUp{
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #ff949a;
+    width: 360px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+#boxName{
+    margin-bottom: 20px;
+}
+#boxName span{
+    margin-left: 75px;
+    font-size: 40px;
+    color: #f0575f;
+}
+#SignUp input{
+    width: 260px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 15.6px;
+    text-decoration: none solid rgb(64, 56, 12);
+    word-spacing: 0px;
+    background-color: #ffffff;
+    color: #403866;
+    height: 42px;
+    width: 330px;
+    padding: 0 10px 0 20px;
+    display: block;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#SignUp input:focus{
+outline: rgb(255, 0, 0) dashed 1px;
+outline-offset: -2px;
+box-sizing: border-box;
+}
+
+
+.button {
+    position: relative;
+    background-color: #f0575f;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 130px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 80px
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+
+/* log in */
+
+
+  #loginForm{
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #ff949a;
+    width: 360px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    /* margin-left: 590px; */
+    padding-top: 30px;
+} 
+#loginForm input{
+    width: 260px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 15.6px;
+    text-decoration: none solid rgb(64, 56, 12);
+    word-spacing: 0px;
+    background-color: #ffffff;
+    color: #403866;
+    height: 42px;
+    width: 330px;
+    padding: 0 10px 0 20px;
+    display: block;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#loginForm input:focus{
+outline: rgb(255, 0, 0) dashed 1px;
+outline-offset: -2px;
+box-sizing: border-box;
+}
+
+ input{
+    width: 260px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 15.6px;
+    text-decoration: none solid rgb(64, 56, 12);
+    word-spacing: 0px;
+    background-color: #ffffff;
+    color: #403866;
+    height: 42px;
+    width: 330px;
+    padding: 0 10px 0 20px;
+    display: block;
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0);
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#loginForm input:focus{
+outline: rgb(255, 0, 0) dashed 1px;
+outline-offset: -2px;
+box-sizing: border-box;
+}
